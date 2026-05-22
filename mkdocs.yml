@@ -51,6 +51,7 @@ nav:
     - About GIT: concepts/about-git.md
   - Регламенты:
     - Стайлгайд: rules/styleguide.md
+  - Портфолио: portfolio.md
   
 markdown_extensions:
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -70,3 +71,10 @@ markdown_extensions:
 
 plugins:
   - search
+  - tags:
+      tags_allowed:
+      - Портфолио
+      - manuals
+      - rules
+      - helps
+  - glightbox
