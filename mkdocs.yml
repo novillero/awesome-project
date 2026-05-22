@@ -46,8 +46,11 @@ nav:
   - Главная страница: index.md
   - Инструкции:
     - instructions/index.md
-    - Какая-то инструкция: instructions/page1.md
-  - Тестовая страница: page2.md
+    - Firewall: instructions/firewall.md
+  - Концепции:
+    - About GIT: concepts/about-git.md
+  - Регламенты:
+    - Стайлгайд: rules/styleguide.md
   
 markdown_extensions:
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
