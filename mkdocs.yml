@@ -52,6 +52,10 @@ nav:
   - Регламенты:
     - Стайлгайд: rules/styleguide.md
   - Портфолио: portfolio.md
+  - API:
+    - API Swagger: api/swagger.md
+    - API Redoc: api/redoc.md
+  - Пользовательский сценарий: scenario-1.md
   
 markdown_extensions:
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -78,3 +82,7 @@ plugins:
       - rules
       - helps
   - glightbox
+  - swagger-ui-tag
+  - redoc-tag
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
