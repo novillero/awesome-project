@@ -52,6 +52,7 @@ nav:
   - Регламенты:
     - Стайлгайд: rules/styleguide.md
   - Портфолио: portfolio.md
+  - Пользовательский сценарий: scenario-1.md
   
 markdown_extensions:
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -78,3 +79,5 @@ plugins:
       - rules
       - helps
   - glightbox
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
