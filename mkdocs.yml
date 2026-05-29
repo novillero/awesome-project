@@ -10,7 +10,7 @@ theme:
   language: ru # Язык
   palette: # Настройки светлой и тёмной тем
     # Настройки светлой темы
-    - scheme: default 
+    - scheme: custom
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
@@ -22,12 +22,12 @@ theme:
       # grey; blue grey; black; white
 
     # Настройки тёмной темы
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Позвать солнышко
-      primary: deep orange
-      accent: blue
+#    - scheme: slate
+#      toggle:
+#        icon: material/weather-night
+#        name: Позвать солнышко
+#      primary: deep orange
+#      accent: blue
   features: # настройки функциональностей темы
     #- navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
@@ -86,3 +86,8 @@ plugins:
   - redoc-tag
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: false
+
+extra_css:
+  - stylesheets/extra.css
